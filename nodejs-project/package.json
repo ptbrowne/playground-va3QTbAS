@@ -1,0 +1,13 @@
+{
+  "name": "cozy-konnector-hellp",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Christophe Thiriot",
+  "license": "MIT",
+  "dependencies": {
+    "cozy-konnector-libs": "3.0.0-alpha.13"
+  },
+  "scripts": {
+    "standalone": "cozy-konnector-standalone"
+  }
+}

@@ -1,0 +1,18 @@
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <style>
+      img {
+        max-width: 50vw;
+        max-height: 50vh;
+      }
+    </style>
+    <script type="text/javascript" src="result.js"></script>
+  </head>
+  <body>
+    <main></main>
+    <script>
+document.querySelector('main').innerHTML = window.result.map(item => `<img src="${item.fileobject._id}">`).join('\n')
+    </script>
+  </body>
+</html>
